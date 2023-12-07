@@ -1,14 +1,18 @@
 'use client'
 import React from 'react';
-import { Disclosure, } from '@headlessui/react';
+import { Disclosure } from '@headlessui/react';
 import Link from 'next/link';
 
-const navigation = [
+interface NavigationItem {
+    name: string;
+    href: string;
+}
+
+const navigation: NavigationItem[] = [
     { name: 'Home', href: '/' },
     { name: 'Services', href: '/services' },
     { name: 'About Us', href: '/about' },
     { name: 'Contact Us', href: '/contact' },
-
 ];
 
 function classNames(...classes: string[]) {
@@ -34,6 +38,7 @@ export default function Navbar() {
                                     <div className="flex space-x-4">
                                         {navigation.map((item) => (
                                             <Link
+                                                key={item.name}
                                                 href={item.href}
                                                 className={classNames(
                                                     'text-white hover:text-blue-300 active:text-blue-400',
@@ -56,37 +61,38 @@ export default function Navbar() {
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                                         </svg>
-
-
                                     ) : (
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                                         </svg>
-
                                     )}
                                 </Disclosure.Button>
                             </div>
-
                         </div>
+
                         <Disclosure.Panel className="lg:hidden sticky w-full lg:container z-[995] mx-auto pb-8 sm:px-8  text-white">
                             <div className="space-y-1 w-full text-white px-2 pb-3 backdrop-blur-sm backdrop-brightness-90">
                                 {navigation.map((data) => (
-                                    <Disclosure.Button
-                                        as="a"
+                                    <Link
+                                        key={data.name}
                                         href={data.href}
-                                        className={classNames(
-                                            data.name === 'Home' ? '' : 'text-white',
-                                            'block  px-3 py-2 text-base text-white font-medium hover:text-blue-300 active:text-blue-400'
-                                        )}
-                                        aria-current={data.name === 'Home' ? 'page' : undefined}
+                                        passHref
                                     >
-                                        {data.name}
-                                    </Disclosure.Button>
+                                        <Disclosure.Button
+                                            as="a"
+                                            className={classNames(
+                                                data.name === 'Home' ? '' : 'text-white',
+                                                'block  px-3 py-2 text-base text-white font-medium hover:text-blue-300 active:text-blue-400'
+                                            )}
+                                            aria-current={data.name === 'Home' ? 'page' : undefined}
+                                        >
+                                            {data.name}
+                                        </Disclosure.Button>
+                                    </Link>
                                 ))}
                             </div>
                         </Disclosure.Panel>
                     </div>
-
                 </>
             )}
         </Disclosure>
