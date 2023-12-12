@@ -67,7 +67,7 @@ const ServicePage = () => {
             <AnimatedSection id="frontend">
                 <div className="frontend px-5 container mx-auto min-h-[50vh] grid grid-cols-1 md:grid-cols-2 md:items-center text-white">
                     <div className="img relative w-full h-full min-h-[30vh]">
-                        <Image src="/front-end.jpeg" className='aspect-square' alt='' layout='fill' />
+                        <Image src="/front-end.jpeg" className='aspect-square rounded-md shadow-xl shadow-blue-400' alt='' layout='fill' />
                     </div>
                     <div className="content px-5 my-10 sm:my-0 mx-auto flex flex-col gap-8">
                         <h2 className='text-2xl sm:text-5xl font-semibold'><span className="text-blue-400">Front-End</span> Development</h2>
@@ -88,7 +88,7 @@ const ServicePage = () => {
             <AnimatedSection id="backend">
                 <div className="backend px-5 container mx-auto min-h-[50vh] grid grid-cols-1 md:grid-cols-2 md:items-center text-white">
                     <div className="img relative w-full h-full min-h-[30vh] order-1 md:order-2">
-                        <Image src="/back-end-development.jpeg" alt='' layout='fill' />
+                        <Image src="/back-end-development.jpeg" className='aspect-square rounded-md shadow-xl shadow-blue-400' alt='' layout='fill' />
                     </div>
                     <div className="content px-5 my-10 sm:my-0 mx-auto flex flex-col gap-8 order-2 md:order-1">
                         <h2 className='text-2xl sm:text-5xl font-semibold'><span className="text-blue-400">Back-End</span> Development</h2>
@@ -109,7 +109,7 @@ const ServicePage = () => {
             <AnimatedSection id="app-development">
                 <div className="app-development px-5 container mx-auto min-h-[50vh] grid grid-cols-1 md:grid-cols-2 md:items-center text-white">
                     <div className="img relative w-full h-full min-h-[30vh]">
-                        <Image src="/app-development-service.jpeg" alt='' layout='fill' />
+                        <Image src="/app-development-service.jpeg" className='aspect-square rounded-md shadow-xl shadow-blue-400' alt='' layout='fill' />
                     </div>
                     <div className="content px-5 my-10 sm:my-0 mx-auto flex flex-col gap-8">
                         <h2 className='text-2xl sm:text-5xl font-semibold'><span className="text-blue-400">App</span> Development</h2>

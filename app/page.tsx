@@ -174,80 +174,80 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             <div
-              className="w-full bg-gray-900 group relative overflow-hidden rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
+              className="w-full group relative overflow-hidden rounded-lg shadow-xl shadow-blue-400 p-12 flex flex-col justify-center items-center backdrop-blur-md"
             >
               <Image src="/PHP.jpeg" className='object-cover absolute pt-80 group-hover:pt-0 duration-1000 aspect-square' alt="" layout='fill'></Image>
               <div className="mb-8 ">
-                <div className="radial-progress bg-accent text-accent-content border-4 border-accent" >70%</div>
+                <div className="radial-progress h-16 w-16 flex justify-center items-center bg-accent text-accent-content border-4 rounded-[50%] border-accent shadow-lg shadow-blue-400" >70%</div>
               </div>
               <div className="text-center">
-                <p className="text-xl text-white font-bold mb-2">PHP</p>
-                <p className="text-base text-gray-400 font-normal">________________________________________</p>
+                <p className="text-xl text-blue-400 font-bold mb-2">PHP</p>
+                <p className="text-base text-blue-400 font-normal">________________________________________</p>
               </div>
             </div>
 
             <div
-              className="w-full bg-gray-900 group relative overflow-hidden rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
+              className="w-full group relative overflow-hidden rounded-lg shadow-xl shadow-blue-400 p-12 flex flex-col justify-center items-center backdrop-blur-md"
             >
               <Image src="/java.jpeg" className=' absolute pt-80 group-hover:pt-0 duration-1000 aspect-square' alt="" layout='fill'></Image>
               <div className="mb-8">
-                <div className="radial-progress bg-accent text-accent-content border-4 border-accent" >90%</div>
+                <div className="radial-progress h-16 w-16 flex justify-center items-center bg-accent text-accent-content border-4 rounded-[50%] border-accent shadow-lg shadow-blue-400" >90%</div>
               </div>
               <div className="text-center">
-                <p className="text-xl text-white font-bold mb-2">Java</p>
-                <p className="text-base text-gray-400 font-normal">________________________________________</p>
+                <p className="text-xl text-blue-400 font-bold mb-2">Java</p>
+                <p className="text-base text-blue-400 font-normal">________________________________________</p>
               </div>
             </div>
 
             <div
-              className="w-full bg-gray-900 group relative overflow-hidden rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
+              className="w-full group relative overflow-hidden rounded-lg shadow-xl shadow-blue-400 p-12 flex flex-col justify-center items-center backdrop-blur-md"
             >
               <Image src="/JavaScript.jpeg" className='object-cover absolute pt-80 group-hover:pt-0 duration-1000 aspect-square' alt="" layout='fill'></Image>
               <div className="mb-8">
-                <div className="radial-progress bg-accent text-accent-content border-4 border-accent" >80%</div>
+                <div className="radial-progress h-16 w-16 flex justify-center items-center bg-accent text-accent-content border-4 rounded-[50%] border-accent shadow-lg shadow-blue-400" >80%</div>
               </div>
               <div className="text-center">
-                <p className="text-xl text-white font-bold mb-2">JavaScript</p>
-                <p className="text-base text-gray-400 font-normal">________________________________________</p>
+                <p className="text-xl text-blue-400 font-bold mb-2">JavaScript</p>
+                <p className="text-base text-blue-400 font-normal">________________________________________</p>
               </div>
             </div>
 
             <div
-              className="w-full bg-gray-900 group relative overflow-hidden rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
+              className="w-full group relative overflow-hidden rounded-lg shadow-xl shadow-blue-400 p-12 flex flex-col justify-center items-center backdrop-blur-md"
             >
               <Image src="/React.jpeg" className='object-cover absolute pt-80 group-hover:pt-0 duration-1000 aspect-square' alt="" layout='fill'></Image>
               <div className="mb-8">
-                <div className="radial-progress bg-accent text-accent-content border-4 border-accent" >60%</div>
+                <div className="radial-progress h-16 w-16 flex justify-center items-center bg-accent text-accent-content border-4 rounded-[50%] border-accent shadow-lg shadow-blue-400" >60%</div>
               </div>
               <div className="text-center">
-                <p className="text-xl text-white font-bold mb-2">React</p>
-                <p className="text-base text-gray-400 font-normal">________________________________________</p>
+                <p className="text-xl text-blue-400 font-bold mb-2">React</p>
+                <p className="text-base text-blue-400 font-normal">________________________________________</p>
               </div>
             </div>
 
             <div
-              className="w-full bg-gray-900 group relative overflow-hidden rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
+              className="w-full group relative overflow-hidden rounded-lg shadow-xl shadow-blue-400 p-12 flex flex-col justify-center items-center backdrop-blur-md"
             >
               <Image src="/nextjs.jpeg" className='object-cover absolute pt-80 group-hover:pt-0 duration-1000 aspect-square' alt="" layout='fill'></Image>
               <div className="mb-8">
-                <div className="radial-progress bg-accent text-accent-content border-4 border-accent" >70%</div>
+                <div className="radial-progress h-16 w-16 flex justify-center items-center bg-accent text-accent-content border-4 rounded-[50%] border-accent shadow-lg shadow-blue-400" >70%</div>
               </div>
               <div className="text-center">
-                <p className="text-xl text-white font-bold mb-2">Next js</p>
-                <p className="text-base text-gray-400 font-normal">________________________________________</p>
+                <p className="text-xl text-blue-400 font-bold mb-2">Next js</p>
+                <p className="text-base text-blue-400 font-normal">________________________________________</p>
               </div>
             </div>
 
             <div
-              className="w-full bg-gray-900 group relative overflow-hidden rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
+              className="w-full group relative overflow-hidden rounded-lg shadow-xl shadow-blue-400 p-12 flex flex-col justify-center items-center backdrop-blur-md"
             >
               <Image src="/html-css.jpeg" className=' absolute pt-80 group-hover:pt-0 duration-1000 aspect-square' alt="" layout='fill'></Image>
               <div className="mb-8">
-                <div className="radial-progress bg-accent text-accent-content border-4 border-accent" >85%</div>
+                <div className="radial-progress h-16 w-16 flex justify-center items-center bg-accent text-accent-content border-4 rounded-[50%] border-accent shadow-lg shadow-blue-400" >85%</div>
               </div>
               <div className="text-center">
-                <p className="text-xl text-white font-bold mb-2">HTML/CSS</p>
-                <p className="text-base text-gray-400 font-normal">________________________________________</p>
+                <p className="text-xl text-blue-400 font-bold mb-2">HTML/CSS</p>
+                <p className="text-base text-blue-400 font-normal">________________________________________</p>
               </div>
             </div>
           </div>
@@ -266,7 +266,7 @@ export default function Home() {
           blog update
         </h2>
         <div className="cards px-5 mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
-          <div className="card group flex flex-col gap-5">
+          <div className="card group p-8 rounded-md flex flex-col gap-5 shadow-inner shadow-blue-400">
             <h3 className='text-2xl font-semibold'>AI in Business: Beyond the Hype</h3>
             <span className='text-gray-300'>5 minutes read</span>
             <p>
@@ -274,7 +274,7 @@ export default function Home() {
             </p>
 
           </div>
-          <div className="card group flex flex-col gap-5">
+          <div className="card group p-8 rounded-md flex flex-col gap-5 shadow-inner shadow-blue-400">
             <h3 className='text-2xl font-semibold'>The Evolution of Programming Languages</h3>
             <span className='text-gray-300'>5 minutes read</span>
             <p>
@@ -282,7 +282,7 @@ export default function Home() {
             </p>
 
           </div>
-          <div className="card group flex flex-col gap-5">
+          <div className="card group p-8 rounded-md flex flex-col gap-5 shadow-inner shadow-blue-400">
             <h3 className='text-2xl font-semibold'>Decoding UX: Creating User-Friendly Interfaces</h3>
             <span className='text-gray-300'>5 minutes read</span>
             <p>

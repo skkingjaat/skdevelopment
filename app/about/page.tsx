@@ -71,7 +71,7 @@ const About: React.FC = () => {
 
             <Section className="our-vision container mx-auto min-h-[50vh] grid grid-cols-1 md:grid-cols-2 md:items-center text-white gap-8" id="our-vision">
                 <div className="img relative w-full h-full min-h-[30vh]">
-                    <Image src="/vision.jpeg" className="aspect-square object-fill" alt="" layout="fill"></Image>
+                    <Image src="/vision.jpeg" className="aspect-square object-fill rounded-md shadow-xl shadow-blue-400" alt="" layout="fill"></Image>
                 </div>
                 <div className="content mx-auto flex flex-col gap-5 md:gap-8">
                     <h2 className="text-2xl sm:text-5xl mx-auto font-semibold flex items-center gap-3">Our <span className="text-blue-400">vision</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-10 h-10 text-blue-400">
@@ -85,36 +85,36 @@ const About: React.FC = () => {
                 </div>
             </Section>
 
-            <Section className="why-us mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 text-white gap-5" id="why-choose-us">
-                <div className="card p-3 flex flex-col gap-8 bg-blue-500 shadow-md shadow-blue-300 md:col-span-1 order-3 md:order-1 lg:order-1">
+            <Section className="why-us px-5 mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 text-white gap-5" id="why-choose-us">
+                <div className="card p-3 rounded-md flex flex-col gap-8 bg-blue-500 shadow-md shadow-blue-300 md:col-span-1 order-3 md:order-1 lg:order-1">
                     <div className="icon relative">
-                        <Image src='' className='aspect-square' alt='' layout='fill'></Image>
+                        <Image src='' className='aspect-square rounded-md' alt='' layout='fill'></Image>
                     </div>
                     <h3 className='text-3xl font-medium'>Expertise</h3>
                     <p>Our team comprises skilled developers and designers with a wealth of experience.</p>
                 </div>
-                <div className="image min-h-[30vh] relative flex flex-col gap-8 lg:row-span-2 sm:col-span-2 shadow-md shadow-amber-300 md:order-3">
-                    <Image src="/choose-us.jpeg" className='aspect-square' alt='' layout='fill'></Image>
+                <div className="image rounded-md min-h-[30vh] relative flex flex-col gap-8 lg:row-span-2 sm:col-span-2 shadow-md shadow-amber-300 md:order-3">
+                    <Image src="/choose-us.jpeg" className='aspect-square rounded-md' alt='' layout='fill'></Image>
                 </div>
-                <div className="why-heading p-3 text-center md:text-right flex flex-col gap-8 bg-pink-500 sm:col-span-2 shadow-md shadow-pink-300">
+                <div className="why-heading rounded-md p-3 text-center md:text-right flex flex-col gap-8 bg-pink-500 sm:col-span-2 shadow-md shadow-pink-300">
                     <h2 className='text-6xl font-light'>Why <br /> <span className="text-blue-400 font-semibold">Choose</span> <br /> <span className="text-blue-400 font-semibold">US ?</span></h2>
                     <p className='text-justify md:text-right'>Coding your success story with a dedicated team, innovative solutions, and a client-centric approach, we ensure timely, high-quality results that speak for themselves.</p>
                 </div>
-                <div className="card p-3 flex flex-col gap-8 bg-pink-500 shadow-md shadow-pink-300 md:order-6">
+                <div className="card p-3 rounded-md flex flex-col gap-8 bg-pink-500 shadow-md shadow-pink-300 md:order-6">
                     <div className="icon relative">
                         <Image src='' className='aspect-square' alt='' layout='fill'></Image>
                     </div>
                     <h3 className='text-3xl font-medium'>Custom <br /> Solutions</h3>
                     <p>We create tailored solutions to meet your unique needs.</p>
                 </div>
-                <div className="card p-3 flex flex-col gap-8 bg-purple-500 shadow-md shadow-purple-300 md:order-7">
+                <div className="card p-3 rounded-md flex flex-col gap-8 bg-purple-500 shadow-md shadow-purple-300 md:order-7">
                     <div className="icon relative">
                         <Image src='' className='aspect-square' alt='' layout='fill'></Image>
                     </div>
                     <h3 className='text-3xl font-medium'>Creative <br /> Excellence</h3>
                     <p>Our designs are visually stunning and user-friendly.</p>
                 </div>
-                <div className="card p-3 flex flex-col gap-8 bg-blue-500 shadow-md shadow-blue-300 md:order-8">
+                <div className="card p-3 rounded-md flex flex-col gap-8 bg-blue-500 shadow-md shadow-blue-300 md:order-8">
                     <div className="icon relative">
                         <Image src='' className='aspect-square' alt='' layout='fill'></Image>
                     </div>
